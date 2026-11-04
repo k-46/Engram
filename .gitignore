@@ -12,6 +12,7 @@ engram_env/
 # Local data and generated outputs
 data/*
 !data/.gitkeep
+!data/sample_corpus.json
 outputs/*
 !outputs/.gitkeep
 
