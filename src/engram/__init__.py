@@ -8,6 +8,7 @@ from .models import (
     IncidentReport,
     validate_corpus,
 )
+from .ingestion import DocumentIngestionError, load_documents
 
 __all__ = [
     "ArchitectureDecisionRecord",
@@ -16,4 +17,6 @@ __all__ = [
     "DocumentRelationship",
     "IncidentReport",
     "validate_corpus",
+    "DocumentIngestionError",
+    "load_documents",
 ]
